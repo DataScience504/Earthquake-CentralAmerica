@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4a9161b41fd9136d03496543b7dac2f6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+    <h3 align="center" style="font-size:20px">
+        <b> Top 10 Strongest Earthquakes in Central America (1975–2025)</b>
+    </h3>
+    
+            <div class="folium-map" id="map_4a9161b41fd9136d03496543b7dac2f6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4a9161b41fd9136d03496543b7dac2f6 = L.map(
+                "map_4a9161b41fd9136d03496543b7dac2f6",
+                {
+                    center: [13.5, -85.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5.5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1bb68381129c0156c690a6278657e7b2 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_1bb68381129c0156c690a6278657e7b2.addTo(map_4a9161b41fd9136d03496543b7dac2f6);
+        
+    
+            var marker_01f9c4c925f05759ae3cd6b7dbb26173 = L.marker(
+                [11.742, -87.34],
+                {
+}
+            ).addTo(map_4a9161b41fd9136d03496543b7dac2f6);
+        
+    
+            var div_icon_4c7021ea8ede73e8ecde6fe1932e748e = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                font-size: 16px;\n                font-weight: bold;\n                color: white;\n                background-color: darkred;\n                border-radius: 50%;\n                width: 30px;\n                height: 30px;\n                text-align: center;\n                line-height: 30px;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.5);\n            \"\u003e1\u003c/div\u003e\n        ",
+  "className": "empty",
+});
+        
+    
+            marker_01f9c4c925f05759ae3cd6b7dbb26173.bindTooltip(
+                `<div>
+                     <b>🌍 Country:</b> Nicaragua<br><b>📅 Date:</b> 1992-09-02<br><b>📏 Magnitude:</b> 7.7<br><b>⬇️ Depth:</b> 44.8 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_01f9c4c925f05759ae3cd6b7dbb26173.setIcon(div_icon_4c7021ea8ede73e8ecde6fe1932e748e);
+            
+    
+            var marker_827b5b6a48707ef1c864ea6a97e1a6a1 = L.marker(
+                [13.049, -88.66],
+                {
+}
+            ).addTo(map_4a9161b41fd9136d03496543b7dac2f6);
+        
+    
+            var div_icon_2091fbd37d5d9c0d1805ee7586acc638 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                font-size: 16px;\n                font-weight: bold;\n                color: white;\n                background-color: darkred;\n                border-radius: 50%;\n                width: 30px;\n                height: 30px;\n                text-align: center;\n                line-height: 30px;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.5);\n            \"\u003e2\u003c/div\u003e\n        ",
+  "className": "empty",
+});
+        
+    
+            marker_827b5b6a48707ef1c864ea6a97e1a6a1.bindTooltip(
+                `<div>
+                     <b>🌍 Country:</b> El Salvador<br><b>📅 Date:</b> 2001-01-13<br><b>📏 Magnitude:</b> 7.7<br><b>⬇️ Depth:</b> 60.0 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_827b5b6a48707ef1c864ea6a97e1a6a1.setIcon(div_icon_2091fbd37d5d9c0d1805ee7586acc638);
+            
+    
+            var marker_39eeee321a0119e6458388362b6b2b8b = L.marker(
+                [10.085, -85.315],
+                {
+}
+            ).addTo(map_4a9161b41fd9136d03496543b7dac2f6);
+        
+    
+            var div_icon_b3cc1d806bd0c22b7ad01c3c6f23caf0 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                font-size: 16px;\n                font-weight: bold;\n                color: white;\n                background-color: darkred;\n                border-radius: 50%;\n                width: 30px;\n                height: 30px;\n                text-align: center;\n                line-height: 30px;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.5);\n            \"\u003e3\u003c/div\u003e\n        ",
+  "className": "empty",
+});
+        
+    
+            marker_39eeee321a0119e6458388362b6b2b8b.bindTooltip(
+                `<div>
+                     <b>🌍 Country:</b> Costa Rica<br><b>📅 Date:</b> 2012-09-05<br><b>📏 Magnitude:</b> 7.6<br><b>⬇️ Depth:</b> 35.0 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_39eeee321a0119e6458388362b6b2b8b.setIcon(div_icon_b3cc1d806bd0c22b7ad01c3c6f23caf0);
+            
+    
+            var marker_ba6136cd6a2be2d33da546de0defde52 = L.marker(
+                [9.685, -83.073],
+                {
+}
+            ).addTo(map_4a9161b41fd9136d03496543b7dac2f6);
+        
+    
+            var div_icon_2f8c35cc33d5c25f905d40ca7278354a = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                font-size: 16px;\n                font-weight: bold;\n                color: white;\n                background-color: darkred;\n                border-radius: 50%;\n                width: 30px;\n                height: 30px;\n                text-align: center;\n                line-height: 30px;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.5);\n            \"\u003e4\u003c/div\u003e\n        ",
+  "className": "empty",
+});
+        
+    
+            marker_ba6136cd6a2be2d33da546de0defde52.bindTooltip(
+                `<div>
+                     <b>🌍 Country:</b> Costa Rica<br><b>📅 Date:</b> 1991-04-22<br><b>📏 Magnitude:</b> 7.6<br><b>⬇️ Depth:</b> 10.0 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ba6136cd6a2be2d33da546de0defde52.setIcon(div_icon_2f8c35cc33d5c25f905d40ca7278354a);
+            
+    
+            var marker_0ca853713c462d493aa009632c00064a = L.marker(
+                [17.4825, -83.52],
+                {
+}
+            ).addTo(map_4a9161b41fd9136d03496543b7dac2f6);
+        
+    
+            var div_icon_f81d5409aaa301cdd09eaa9861f5e888 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                font-size: 16px;\n                font-weight: bold;\n                color: white;\n                background-color: darkred;\n                border-radius: 50%;\n                width: 30px;\n                height: 30px;\n                text-align: center;\n                line-height: 30px;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.5);\n            \"\u003e5\u003c/div\u003e\n        ",
+  "className": "empty",
+});
+        
+    
+            marker_0ca853713c462d493aa009632c00064a.bindTooltip(
+                `<div>
+                     <b>🌍 Country:</b> Honduras<br><b>📅 Date:</b> 2018-01-10<br><b>📏 Magnitude:</b> 7.5<br><b>⬇️ Depth:</b> 19.0 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0ca853713c462d493aa009632c00064a.setIcon(div_icon_f81d5409aaa301cdd09eaa9861f5e888);
+            
+    
+            var marker_da21dff248f02a90a5fe51fec5b3b1d7 = L.marker(
+                [15.324, -89.101],
+                {
+}
+            ).addTo(map_4a9161b41fd9136d03496543b7dac2f6);
+        
+    
+            var div_icon_7a770886b3e23f06642ddb61ad6ae13f = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                font-size: 16px;\n                font-weight: bold;\n                color: white;\n                background-color: darkred;\n                border-radius: 50%;\n                width: 30px;\n                height: 30px;\n                text-align: center;\n                line-height: 30px;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.5);\n            \"\u003e6\u003c/div\u003e\n        ",
+  "className": "empty",
+});
+        
+    
+            marker_da21dff248f02a90a5fe51fec5b3b1d7.bindTooltip(
+                `<div>
+                     <b>🌍 Country:</b> Guatemala<br><b>📅 Date:</b> 1976-02-04<br><b>📏 Magnitude:</b> 7.5<br><b>⬇️ Depth:</b> 5.0 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_da21dff248f02a90a5fe51fec5b3b1d7.setIcon(div_icon_7a770886b3e23f06642ddb61ad6ae13f);
+            
+    
+            var marker_3ebb11d28e5984531212d7928570e516 = L.marker(
+                [13.988, -91.895],
+                {
+}
+            ).addTo(map_4a9161b41fd9136d03496543b7dac2f6);
+        
+    
+            var div_icon_3786ca00e35f5908fcbf7147362f8784 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                font-size: 16px;\n                font-weight: bold;\n                color: white;\n                background-color: darkred;\n                border-radius: 50%;\n                width: 30px;\n                height: 30px;\n                text-align: center;\n                line-height: 30px;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.5);\n            \"\u003e7\u003c/div\u003e\n        ",
+  "className": "empty",
+});
+        
+    
+            marker_3ebb11d28e5984531212d7928570e516.bindTooltip(
+                `<div>
+                     <b>🌍 Country:</b> Guatemala<br><b>📅 Date:</b> 2012-11-07<br><b>📏 Magnitude:</b> 7.4<br><b>⬇️ Depth:</b> 24.0 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3ebb11d28e5984531212d7928570e516.setIcon(div_icon_3786ca00e35f5908fcbf7147362f8784);
+            
+    
+            var marker_276eb4c2a8d8ca9651fb4589c79248ba = L.marker(
+                [12.5262, -88.1225],
+                {
+}
+            ).addTo(map_4a9161b41fd9136d03496543b7dac2f6);
+        
+    
+            var div_icon_ee56852f36ece0fe5d595b6c2322ffba = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                font-size: 16px;\n                font-weight: bold;\n                color: white;\n                background-color: darkred;\n                border-radius: 50%;\n                width: 30px;\n                height: 30px;\n                text-align: center;\n                line-height: 30px;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.5);\n            \"\u003e8\u003c/div\u003e\n        ",
+  "className": "empty",
+});
+        
+    
+            marker_276eb4c2a8d8ca9651fb4589c79248ba.bindTooltip(
+                `<div>
+                     <b>🌍 Country:</b> El Salvador<br><b>📅 Date:</b> 2014-10-14<br><b>📏 Magnitude:</b> 7.3<br><b>⬇️ Depth:</b> 40.0 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_276eb4c2a8d8ca9651fb4589c79248ba.setIcon(div_icon_ee56852f36ece0fe5d595b6c2322ffba);
+            
+    
+            var marker_b9b36fed76bfa3fa14093ffaae467e84 = L.marker(
+                [16.731, -86.217],
+                {
+}
+            ).addTo(map_4a9161b41fd9136d03496543b7dac2f6);
+        
+    
+            var div_icon_5b51822ba0068c6c1e2648394b624284 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                font-size: 16px;\n                font-weight: bold;\n                color: white;\n                background-color: darkred;\n                border-radius: 50%;\n                width: 30px;\n                height: 30px;\n                text-align: center;\n                line-height: 30px;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.5);\n            \"\u003e9\u003c/div\u003e\n        ",
+  "className": "empty",
+});
+        
+    
+            marker_b9b36fed76bfa3fa14093ffaae467e84.bindTooltip(
+                `<div>
+                     <b>🌍 Country:</b> Honduras<br><b>📅 Date:</b> 2009-05-28<br><b>📏 Magnitude:</b> 7.3<br><b>⬇️ Depth:</b> 19.0 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b9b36fed76bfa3fa14093ffaae467e84.setIcon(div_icon_5b51822ba0068c6c1e2648394b624284);
+            
+    
+            var marker_a28a4189e378b4e4721814b1f19ac082 = L.marker(
+                [12.139, -88.59],
+                {
+}
+            ).addTo(map_4a9161b41fd9136d03496543b7dac2f6);
+        
+    
+            var div_icon_1ddeff2648087d3ca67a0980ac0ea435 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                font-size: 16px;\n                font-weight: bold;\n                color: white;\n                background-color: darkred;\n                border-radius: 50%;\n                width: 30px;\n                height: 30px;\n                text-align: center;\n                line-height: 30px;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.5);\n            \"\u003e10\u003c/div\u003e\n        ",
+  "className": "empty",
+});
+        
+    
+            marker_a28a4189e378b4e4721814b1f19ac082.bindTooltip(
+                `<div>
+                     <b>🌍 Country:</b> El Salvador<br><b>📅 Date:</b> 2012-08-27<br><b>📏 Magnitude:</b> 7.3<br><b>⬇️ Depth:</b> 28.0 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a28a4189e378b4e4721814b1f19ac082.setIcon(div_icon_1ddeff2648087d3ca67a0980ac0ea435);
+            
+</script>
+</html>
