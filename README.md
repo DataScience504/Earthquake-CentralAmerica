@@ -19,9 +19,9 @@ This project provides an interactive, visual exploration of **earthquake activit
 ## 📁 Files Included
 
 - `EarthquakeCA.ipynb`: Main analysis and visualizations
-- `Top10_Earthquakes.html`: Interactive map of top 10 strongest events [View Map]https://github.com/DataScience504/Earthquake-CentralAmerica/blob/main/earthquake_map.html
+- `Top10_Earthquakes.html`: Interactive map of top 10 strongest events [View Map](https://github.com/DataScience504/Earthquake-CentralAmerica/blob/main/earthquake_map.html)
 
-- `earthquake_map.html`: Heatmap of all significant earthquakes [View Map]https://github.com/DataScience504/Earthquake-CentralAmerica/blob/main/Top10_Earthquakes.html
+- `earthquake_map.html`: Heatmap of all significant earthquakes [View Map](https://github.com/DataScience504/Earthquake-CentralAmerica/blob/main/Top10_Earthquakes.html)
 
 
 ## 🔎 Data Source
