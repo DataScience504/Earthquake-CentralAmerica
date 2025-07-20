@@ -20,7 +20,7 @@ This project provides an interactive, visual exploration of **earthquake activit
 
 - `EarthquakeCA.ipynb`: Main analysis and visualizations
 - `Top10_Earthquakes.html`: Interactive map of top 10 strongest events (Please download map to see)
-<img width="2106" height="1503" alt="image" src="https://github.com/user-attachments/assets/504c820c-25c0-4a77-9d1b-39adcc6f0637" />
+<img width="1024" height="730" alt="image" src="https://github.com/user-attachments/assets/504c820c-25c0-4a77-9d1b-39adcc6f0637" />
 
 - `earthquake_map.html`: Heatmap of all significant earthquakes (Please download map to see)
 
